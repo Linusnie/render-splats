@@ -7,7 +7,7 @@ Notebook with minimal setup for rendering the .ply output from gaussian splattin
 
 ```bash
 python -m pip install torch # modify to match your cuda version if necessary
-python -m pip install plyfile pycolmap matplotlib ipykernel ipympl gsplat
+python -m pip install plyfile pycolmap matplotlib ipykernel ipympl gsplat pyyaml
 python -m pip install git+https://github.com/graphdeco-inria/diff-gaussian-rasterization
 ```
 
